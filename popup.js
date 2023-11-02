@@ -145,7 +145,6 @@ chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
   const result = document.getElementById("result");
   if (iurls.some((u) => url.hostname.includes(u))) {
     result.innerText = "This domain in buyisraelitech.com";
-    chrome.action.setIcon({ path: "./icon-red.png" });
   } else {
     result.innerText = "This domain is not in buyisraelitech.com";
   }
