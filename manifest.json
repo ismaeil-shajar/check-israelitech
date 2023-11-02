@@ -1,5 +1,5 @@
 {
-    "name": "Google Domain Checker",
+    "name": "Domain Checker",
     "version": "1.0",
     "manifest_version": 3,
     "description": "Checks if the current domain includes google.com",
